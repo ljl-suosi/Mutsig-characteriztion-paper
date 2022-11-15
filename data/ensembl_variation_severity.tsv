@@ -1,0 +1,35 @@
+RANK	CONSEQUENCE	SO_ID	DESCRIPTION
+1	transcript_ablation	SO:0001893	A feature ablation whereby the deleted region includes a transcript feature
+2	splice_donor_variant	SO:0001575	A splice variant that changes the 2 base region at the 5' end of an intron
+3	splice_acceptor_variant	SO:0001574	A splice variant that changes the 2 base region at the 3' end of an intron
+4	stop_gained	SO:0001587	A sequence variant whereby at least one base of a codon is changed, resulting in a premature stop codon, leading to a shortened transcript
+5	frameshift_variant	SO:0001589	A sequence variant which causes a disruption of the translational reading frame, because the number of nucleotides inserted or deleted is not a multiple of three
+6	stop_lost	SO:0001578	A sequence variant where at least one base of the terminator codon (stop) is changed, resulting in an elongated transcript
+7	initiator_codon_variant	SO:0001582	A codon variant that changes at least one base of the first codon of a transcript
+8	transcript_amplification	SO:0001889	A feature amplification of a region containing a transcript
+9	inframe_insertion	SO:0001821	An inframe non synonymous variant that inserts bases into in the coding sequence
+10	inframe_deletion	SO:0001822	An inframe non synonymous variant that deletes bases from the coding sequence
+11	missense_variant	SO:0001583	A sequence variant, that changes one or more bases, resulting in a different amino acid sequence but where the length is preserved
+12	splice_region_variant	SO:0001630	A sequence variant in which a change has occurred within the region of the splice site, either within 1-3 bases of the exon or 3-8 bases of the intron
+13	incomplete_terminal_codon_variant	SO:0001626	A sequence variant where at least one base of the final codon of an incompletely annotated transcript is changed
+14	stop_retained_variant	SO:0001567	A sequence variant where at least one base in the terminator codon is changed, but the terminator remains
+15	synonymous_variant	SO:0001819	A sequence variant where there is no resulting change to the encoded amino acid
+16	coding_sequence_variant	SO:0001580	A sequence variant that changes the coding sequence
+17	mature_miRNA_variant	SO:0001620	A transcript variant located with the sequence of the mature miRNA
+18	5_prime_UTR_variant	SO:0001623	A UTR variant of the 5' UTR
+19	3_prime_UTR_variant	SO:0001624	A UTR variant of the 3' UTR
+20	non_coding_transcript_exon_variant	SO:0001792	A sequence variant that changes non-coding exon sequence in a non-coding transcript
+21	intron_variant	SO:0001627	A transcript variant occurring within an intron
+22	NMD_transcript_variant	SO:0001621	A variant in a transcript that is the target of NMD
+23	non_coding_transcript_variant	SO:0001619	A transcript variant of a non coding RNA gene
+24	upstream_gene_variant	SO:0001631	A sequence variant located 5' of a gene
+25	downstream_gene_variant	SO:0001632	A sequence variant located 3' of a gene
+26	TFBS_ablation	SO:0001895	A feature ablation whereby the deleted region includes a transcription factor binding site
+27	TFBS_amplification	SO:0001892	A feature amplification of a region containing a transcription factor binding site
+28	TF_binding_site_variant	SO:0001782	A sequence variant located within a transcription factor binding site
+29	regulatory_region_ablation	SO:0001894	A feature ablation whereby the deleted region includes a regulatory region
+30	regulatory_region_amplification	SO:0001891	A feature amplification of a region containing a regulatory region
+31	regulatory_region_variant	SO:0001566	A sequence variant located within a regulatory region
+32	feature_elongation	SO:0001907	A sequence variant that causes the extension of a genomic feature, with regard to the reference sequence
+33	feature_truncation	SO:0001906	A sequence variant that causes the reduction of a genomic feature, with regard to the reference sequence
+34	intergenic_variant	SO:0001628	A sequence variant located in the intergenic region, between genes
